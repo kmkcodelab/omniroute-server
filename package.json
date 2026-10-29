@@ -2,7 +2,7 @@
   "name": "omniroute-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx omniroute"
+    "start": "npx omniroute --port $PORT"
   },
   "dependencies": {
     "omniroute": "latest"
